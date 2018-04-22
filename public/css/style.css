@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #273136;
+}
+
+#frame {
+    width: 1000px;
+    /* padding-top: 20px; */
+    padding: 0 50px 50px 50px;
+    margin: 100px auto;
+    border: 1px solid #5182BC;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .8);
+}
+
+#loginForm {
+    width: 300px;
+    height: 305px;
+    /* padding-top: 20px; */
+    padding: 0 50px 50px 50px;
+    margin: 140px auto;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .9);
+}
+
+#h1 {
+    text-align: center;
+    margin-top:100px;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+.inp {
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 120px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 12px;
+    background: rgba(255, 255, 255, .8);
+}
+
+.btn {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    font-size: 17px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    background-color: #16A05D;
+}
+
+tbody tr:hover {
+    background: rgba(255, 255, 255, .8);
+    color: rgb(255, 145, 2);
+}
+
+#fra {
+    width: 785px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: -30px;
+    border: 1px solid 0;
+    border-radius: 5px;
+    background-color: rgb(223, 145, 50);
+    ;
+}
+
+#sel {
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+#sel span {
+    padding: 0 15px 0 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+#tab1 {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+    border: 0;
+    border-color: #5182BC;
+}
+
+#tab1 thead {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #5182BC;
+}
+
+#tab1 thead td {
+    height: 45px;
+}
+
+#tab1 tbody td {
+    height: 40px;
+    font-size: 18px;
+    max-width: 200px;
+}
+
+
+/* tbody tr:nth-child(odd) {
+    background: #E6EED6;
+} */
